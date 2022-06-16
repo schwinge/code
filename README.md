@@ -1,6 +1,4 @@
-# code
- java, python, perl, shell, R
+:butterfly::butterfly::butterfly:google colab kaggle, and textbook exercises 
  
- all kind of weired codes
- 
-![63hule73jam01](https://user-images.githubusercontent.com/30926615/173750530-8c1ec26a-a338-4f95-a64d-67920be25bf4.png)
+:blossom:
+![1_4PeYv2f2AFqwnZFPST143g](https://user-images.githubusercontent.com/30926615/173983348-52ba586b-d769-4c9f-8a47-6afa9f942db2.png)
