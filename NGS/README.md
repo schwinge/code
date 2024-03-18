@@ -3,9 +3,18 @@ Kourami, OptiType, Polysolver, PHLAT, HLAreporter, HLAforest, HLAminer, seq2HLA,
 Database: IPD-IMGT/HLA
 # MSI tools
 MSIsensor
+
 mSINGS
-MSI-ColonCore和MSI-FOne
+
+MSI-ColonCore
+
+MSI-FOne
+
 NovoPM-MSI
+
 mSINGS
+
 MANTIS
+
 MSIseq
+
