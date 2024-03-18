@@ -1,0 +1,21 @@
+
+
+
+data: 
+https://www.embopress.org/doi/full/10.15252/embr.201540607
+GSE99205, //SRR5586987-SRR5586990, fig 2c //https://www.nature.com/articles/nprot.2017.150
+GSE76688, x-x, G4 ChIP–seq peak annotation and enrichment analysis. PAVIS55 was used to annotate the HaCaT G4 ChIP–seq peaks //https://www.nature.com/articles/ng.3662, G-quadruplex structures mark human regulatory chromatin
+A hybrid G-quadruplex structure formed between RNA and DNA explains the extraordinary stability of the mitochondrial R-loop //https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488243/
+Figure 7, https://febs.onlinelibrary.wiley.com/doi/full/10.1111/j.1742-4658.2009.07464.x
+can use bed hg19 to hg20, but the raw sequence will be needed for features
+G4 & CGI/CpG Island & DNA met //https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6173298/
+GSE45241, SRR786404-SRR786419-Single(SRR19 is input ctrl), https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146174 //The ChIP-seq, pull-down, G4-seq and nascent DNA sequencing peaks were obtained from GEO accession numbers GSE44849 (GSM1092544, GSM1092545), GSE28911 (GSM716435, GSM716437), GSE63874 and GSE45241 (GSM1099724, GSM1099725, GSM1099726, GSM1099727); https://www.biostars.org/p/120195/
+G4RNA screener, https://academic.oup.com/bioinformatics/article/33/22/3532/4061281
+pqsfinder, https://academic.oup.com/bioinformatics/article/33/21/3373/3923794
+G4 sequence data were originally derived by Chambers et al. [6], and were downloaded from the Gene Expression Omnibus (GEO) repository under accession number GSE63874. Across the genome, 716,311 observed G4 sequences were found in G4-stabilizing ligand pyridostatin (PDS) liquid and 525,908 observed G4 sequence were found in K+ liquid. Of these, 409,365 G4 sequences (K+: 78%, PDS: 57%) occurring in both experimental conditions were selected as our G4 sequences data.  //Integrative characterization of G-Quadruplexes in the three-dimensional chromatin structure, https://www.tandfonline.com/doi/full/10.1080/15592294.2019.1621140
+
+
+require(xgboost)
+data(mine, package='xgboost')
+library(DiagrammeR)
+xgb.plot.tree(model = bst)
