@@ -1,0 +1,24 @@
+import pybedtools
+import sklearn
+import scipy
+import matplotlib
+import gffutils
+import seaborn
+import statsmodels
+
+java -Xms512m -Xmx512m -jar /path/to/gatk/dist/Queue.jar -S \
+/path/to/qscripts/analyze_clip_seq_encode.scala --input manifest.txt --barcoded \
+--adapter AATGATACGGCGACCACCGAGATCTCTCTTTCCCTACACGACGCTCTTCCGATCT --adapter \
+CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT --adapter \
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --adapter \
+ATTGCTTAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --adapter \
+ACAAGCCAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --adapter \ 
+AACTTGTAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --adapter \
+AGGACCAAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --adapter \
+ANNNNGGTCATAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --adapter \
+ANNNNACAGGAAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --adapter \
+ANNNNAAGCTGAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --adapter \
+ANNNNGTATCCAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT --g_adapter CTACACGACGCTCTTCCGATCT \
+-qsub -jobQueue home-yeo -jobNative "-W group_list=yeo-group" -runDir \
+/path/to/output/directory -log result.log -keepIntermediates --job_limit 400 \
+-run
