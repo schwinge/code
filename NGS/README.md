@@ -18,3 +18,19 @@ MANTIS
 
 MSIseq
 
+ect
+
+# mNGS pipeline
+01: quality control
+
+02: remove human genome
+
+03: alignment
+
+04: annotation(abundance/taxonomy)
+
+05: visualisation
+
+
+
+
