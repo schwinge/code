@@ -856,12 +856,12 @@ output_handle.close()    #https:
 
 
 
-[anqi@node10 fastx_bin]$ ruby -v
+[hahaha@node10 fastx_bin]$ ruby -v
 ruby 2.0.0p648 (2015-12-16) [x86_64-linux]
 >>> import os
 >>> cwd = os.getcwd()
 >>> cwd
-'/lustre/anqi/workzone/tools/fastx_bin'
+'/lustre/hahaha/workzone/tools/fastx_bin'
 
 
 
@@ -1138,8 +1138,8 @@ if __name__ == "__main__":
 #too long, might use java
 
 #done need shebang #!
-[anqi@node11 rn32]$ javac haha.java    #generate HelloWorld.class 
-[anqi@node11 rn32]$ java HelloWorld
+[hahaha@node11 rn32]$ javac haha.java    #generate HelloWorld.class 
+[hahaha@node11 rn32]$ java HelloWorld
 Hello, World
 ------------
 
